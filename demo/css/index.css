@@ -1,0 +1,980 @@
+body {
+}
+
+.text-overflow {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.index-top-tab {
+    position: relative;
+    margin: 16px auto;
+    height: 213px;
+    width: 978px;
+    border: 1px solid #dfdfdf;
+}
+
+.index-tab-btngroup {
+    position: relative;
+    float: left;
+    width: 114px;
+    height: 72px;
+}
+
+.index-tab-btngroup .btn {
+    position: relative;
+    text-align: center;
+    color: #111;
+    font-size: 18px;
+    height: 70px;
+    line-height: 70px;
+    border-bottom: 1px solid #dfdfdf;
+    border-right: 1px solid #dfdfdf;
+    cursor: pointer;
+}
+.index-tab-btngroup .tab-final{
+    border-bottom: none;
+    height: 71px;
+}
+
+.index-tab-btngroup .active {
+    font-weight: bold;
+    border-right: none;
+    border-bottom: 4px solid #288bff;
+    height: 67px;
+}
+
+.index-tab-box {
+    position: relative;
+    float: left;
+    width: 863px;
+    padding-top: 18px;
+}
+
+.index-tab-box .show {
+    display: block;
+}
+
+.index-tab-item {
+    padding-left: 22px;
+    overflow: hidden;
+    display: none;
+}
+
+.index-tab-applist {
+    width: 848px;
+    padding-bottom: 12px;
+}
+
+.index-tab-applist .item {
+    display: block;
+    width: 80px;
+    margin-right: 26px;
+    float: left;
+    color: #292929;
+
+}
+
+.index-tab-applist img {
+    width: 80px;
+    height: 80px;
+    border-radius: 8px;
+    overflow: hidden;
+    border: none;
+    background: none;
+}
+
+.index-tab-applist p {
+    margin-top: 10px;
+    text-align: center;
+    height: 12px;
+    line-height: 12px;
+    font-size: 12px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.index-tab-label {
+    position: relative;
+    width: 820px;
+    border-top: 1px dotted #c5c5c5;
+    overflow: hidden;
+}
+
+.index-tab-label .item {
+    position: relative;
+    display: block;
+    float: left;
+    margin-top: 14px;
+    width: 93px;
+    height: 14px;
+    line-height: 14px;
+    font-size: 14px;
+    color: #3e3e3e;
+    border-right: 1px solid #c5c5c5;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.index-tab-label .inner {
+    position: relative;
+    margin-left: -16px;
+    width: 846px;
+}
+
+/*新闻主体*/
+.index-news {
+    position: relative;
+    margin: 0 auto;
+    width: 980px;
+    height: 534px;
+    border-top: 1px solid #dfdfdf;
+}
+
+.index-news-l {
+    width: 416px;
+    float: left;
+    margin-top: 20px;
+}
+
+.index-news-r {
+    width: 530px;
+    float: right;
+}
+
+.index-news-top h2 {
+    position: relative;
+    font-size: 20px;
+    text-align: center;
+    line-height: 20px;
+    margin-top: 22px;
+    margin-bottom: 5px;
+}
+
+.index-news-top h2 a {
+    color: #555;
+}
+
+.index-news-top h2 a:hover {
+    color: #288bff;
+    text-decoration: none;
+}
+
+.index-news-top .content {
+    font-size: 14px;
+    line-height: 24px;
+    color: #666;
+}
+
+.index-news-top .detail:hover {
+    color: #288bff;
+    text-decoration: none;
+}
+
+.index-news-icon {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 67px;
+    height: 64px;
+    background: url("../images/index-news-icon.png");
+}
+
+.index-news-list {
+    padding-top: 8px;
+    border-top: 1px dotted #c5c5c5;
+    margin-top: 10px;
+    padding-left: 4px;
+}
+
+.index-news-list .news-item {
+    position: relative;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 16px;
+    line-height: 29px;
+    display: block;
+}
+
+.index-news-list .news-item:hover {
+    color: #288bff;
+    text-decoration: none;
+}
+
+.index-news-list .news-item .label {
+    position: absolute;
+    left: 0;
+    color: #288bff;
+    padding-right: 10px;
+}
+
+.index-news-list .news-item .detail {
+    display: block;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.index-news-list .news-item .date {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #999999;
+}
+
+/*焦点图*/
+.index-focus-box {
+    position: relative;
+    height: 264px;
+    overflow: hidden;
+}
+
+.index-focus-list {
+}
+
+.index-focus-list li {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 530px;
+    height: 264px;
+}
+.index-focus-list .foot{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    background: rgba(0, 0, 0, 0.8);
+}
+.index-focus-list .title:hover {
+    color: #288bff;
+    text-decoration: none;
+}
+.index-focus-list .title{
+    display: block;
+    left: 0;
+    bottom: 0;
+    color: #fff;
+    width: 70%;
+    line-height: 40px;
+    padding-left: 12px;
+}
+.index-focus-list .one {
+    display: block;
+}
+
+.index-focus-list img {
+    display: block;
+}
+
+
+.index-focus-foot {
+}
+
+
+.index-focus-foot .btn-group {
+    position: absolute;
+    right:6px;
+    bottom: 0;
+    margin-bottom: 18px;
+}
+
+.index-focus-foot .btn-group li {
+    width: 26px;
+    height: 4px;
+    float: left;
+    margin-right: 8px;
+    background: #ffffff;
+    cursor: pointer;
+}
+
+.index-focus-foot .btn-group .active, .btn-group li:hover {
+    background: #33a4f4;
+}
+
+.index-small-box {
+    margin-top: 15px;
+    height: 108px;
+
+}
+
+.index-small-box .box-l {
+    float: left;
+    display: block;
+    width: 200px;
+    margin-right: 15px;
+}
+
+.index-small-box .box-r {
+    float: left;
+    width: 315px;
+}
+
+.index-small-box .box-r h3 {
+    line-height: 18px;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.index-small-box .box-r a {
+    color: #333333;
+
+}
+
+.index-small-box .box-r .info {
+    margin-top: 20px;
+    color: #666;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.index-small-box .box-r a:hover {
+    color: #33a4f4;
+    text-decoration: none;
+}
+
+.index-small-box-b {
+    padding-top: 15px;
+    border-top: 1px dashed #c5c5c5;
+}
+
+.cm-module {
+    margin: 18px auto;
+    width: 980px;
+}
+
+.cm-module-title {
+    position: relative;
+    height: 38px;
+    line-height: 38px;
+    font-size: 18px;
+    border-bottom: 1px solid #dfdfdf;
+}
+
+.cm-module-title h3 {
+    position: absolute;
+    font-weight: normal;
+    left: 0;
+}
+
+.cm-module-title .title {
+    padding-bottom: 3px;
+    color: #111111;
+    border-bottom: 3px solid #33a4f4;
+}
+
+.cm-module-title2 .title {
+    display: inline-block;
+    padding: 0 8px;
+    border: none;
+    height: 36px;
+    font-size: 18px;
+}
+
+.cm-module-title2 .title-active {
+    border-top: 3px solid #33a4f4;
+    border-left: 1px solid #dfdfdf;
+    border-right: 1px solid #dfdfdf;
+    background: #fff;
+}
+
+.cm-module-title .more-btn {
+    position: absolute;
+    top: 2px;
+    right: 0;
+    color: #585858;
+    font-size: 14px;
+}
+
+.cm-module-box {
+    position: relative;
+    /*height: 200px;*/
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+.app-download {
+    width: 1016px;
+    height: 195px;
+}
+
+.cm-module-l {
+    width: 675px;
+    float: left;
+}
+
+.cm-module-r {
+    width: 275px;
+    float: right;
+}
+
+/*app下拉列表*/
+.app-download-list {
+    position: relative;
+    float: left;
+    margin-right: 33px;
+    width: 220px;
+    height: 80px;
+    margin-bottom: 34px;
+}
+
+.app-download-list .app-icon {
+    float: left;
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-right: 10px;
+}
+
+.app-download-list .app-info {
+    width: 130px;
+    float: left;
+}
+
+.app-download-list .app-info h4 {
+    color: #111111;
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: normal;
+
+}
+
+.app-download-list .app-info h4 a {
+    color: #111;
+}
+
+.app-download-list .app-info h4 a:hover {
+    color: #33a4f4;
+    text-decoration: none;
+}
+
+.app-download-list .app-info .label {
+    margin-top: 10px;
+    color: #666666;
+    line-height: 14px;
+    font-size: 14px;
+}
+
+.app-download-list .app-info .label .item {
+    margin-right: 4px;
+}
+
+.app-download-list .app-info .download-btn {
+    display: block;
+    margin-top: 17px;
+    width: 44px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    color: #fff;
+    background: #288bff;
+    font-size: 12px;
+}
+
+.cm-programa {
+    position: relative;
+    margin-top: -15px;
+}
+
+.cm-programa-list {
+    position: relative;
+    height: 80px;
+    margin-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px dotted #c5c5c5;
+
+}
+
+.cm-programa-list .list-logo {
+    float: left;
+    margin-right: 25px;
+}
+
+.cm-programa-list .list-content {
+    float: left;
+    width: 505px;
+}
+
+.cm-programa-list .list-content h4 {
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 1.5;
+    color: #111;
+}
+
+.cm-programa-list .list-content h4:hover {
+    color: #33a4f4;
+    cursor: pointer;
+}
+
+.cm-programa-list .list-content .content {
+    margin-top: 5px;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #666;
+}
+
+.index-bbs {
+    overflow: hidden;
+}
+
+.index-bbs {
+    width: 300px;
+}
+
+.index-bbs-list {
+    position: relative;
+    float: left;
+    width: 80px;
+    margin-right: 18px;
+}
+
+.index-bbs-list .list-logo {
+    position: relative;
+
+}
+
+.index-bbs-list .list-logo img {
+    display: block;
+}
+
+.index-bbs-list .list-logo .title {
+    position: absolute;
+    width: 100%;
+    height: 20px;
+    line-height: 20px;
+    background: rgba(0, 0, 0, .5);
+    left: 0;
+    bottom: 0;
+    color: #ffffff;
+    font-size: 12px;
+    text-align: center;
+}
+
+.index-bbs-list .list-title {
+    margin-top: 10px;
+    line-height: 1;
+    height: 32px;
+    overflow: hidden;
+}
+
+.index-bbs-list .list-title a {
+    font-size: 12px;
+    color: #666;
+}
+
+.index-bbs-list .list-btn {
+    position: relative;
+    display: block;
+    height: 20px;
+    margin-top: 20px;
+    background: #288bff;
+    text-align: center;
+    line-height: 20px;
+    font-size: 12px;
+    color: #fff;
+}
+
+.index-bbs-prize ul {
+    margin-top: -2px;
+}
+
+.index-bbs-prize-list {
+    position: relative;
+    height: 20px;
+    padding: 9px 0;
+    border-bottom: 1px dotted #c5c5c5;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.index-bbs-prize-list .title {
+    width: 212px;
+    float: left;
+    color: #333333;
+}
+
+.index-bbs-prize-list .btn {
+    float: right;
+    width: 44px;
+    height: 20px;
+    background: #fe5a5a;
+    font-size: 12px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.cm-module-box .l {
+    float: left;
+    width: 250px;
+    margin-right: 22px;
+
+}
+
+.cm-module-box .r {
+    float: right;
+    width: 402px;
+}
+
+.index-game-strategybox {
+    border-bottom: 1px dotted #c5c5c5;
+}
+
+.index-game-strategy {
+    position: relative;
+    display: block;
+    height: 140px;
+    margin-bottom: 14px;
+}
+
+.index-game-strategy .title {
+    position: absolute;
+    width: 100%;
+    height: 28px;
+    left: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 28px;
+    text-align: center;
+}
+
+.index-game-strategy:hover .title {
+    color: #288bff;
+    cursor: pointer;
+}
+
+.game-strategy-top {
+    padding-bottom: 20px;
+}
+
+.game-strategy-top h3 {
+    font-size: 20px;
+    color: #288bff;
+    font-weight: normal;
+    line-height: 1;
+    margin-bottom: 10px;
+}
+
+.game-strategy-top .list {
+    color: #666;
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+.game-strategy-top .label {
+    padding: 0 4px;
+}
+
+.game-strategy-list {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #333333;
+    border-top: 1px dotted #c5c5c5;
+    padding-bottom: 14px;
+    padding-top: 15px;
+
+}
+
+.game-strategy-list a {
+    color: #333333;
+    display: block;
+
+}
+
+.game-strategy-list .label {
+    float: left;
+    width: 35px;
+    color: #288bff;
+}
+
+.game-strategy-list .title {
+    float: left;
+    padding-left: 5px;
+    width: 320px;
+}
+
+.game-strategy-list .date {
+    float: right;
+    font-size: 14px;
+    color: #999999;
+}
+
+.index-game-strategybox a:hover {
+    color: #288bff;
+    cursor: pointer;
+}
+
+.game-gift-list {
+
+}
+
+.game-gift-list .gift-header {
+    position: relative;
+    margin-top: 20px;
+    height: 80px;
+}
+
+.game-gift-list .icon {
+    float: left;
+    width: 80px;
+
+}
+
+.game-gift-list .info {
+    position: relative;
+    float: left;
+    margin-left: 10px;
+    width: 184px;
+    height: 80px;
+}
+
+.game-gift-list .info h5 {
+    color: #288bff;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.game-gift-list .btn {
+    position: absolute;
+    width: 44px;
+    height: 20px;
+    right: 0;
+    bottom: 0;
+    color: #fff;
+    background: #288bff;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.game-gift-list .gift-header .item-01 {
+    font-size: 15px;
+    color: #333333;
+    line-height: 2;
+    margin-top: 6px;
+}
+
+.game-gift-list .gift-header .item-02 {
+    font-size: 14px;
+    color: #666;
+}
+
+.game-gift-list .gift-list {
+    margin-top: 16px;
+    border-bottom: 1px dotted #c5c5c5;
+}
+
+.game-gift-list .gift-list .item {
+    position: relative;
+    border-top: 1px dotted #c5c5c5;
+    font-size: 16px;
+    color: #333333;
+    height: 40px;
+    line-height: 40px;
+}
+
+.game-gift-list .gift-list .btn {
+    bottom: 10px;
+}
+
+.game-gift-list .gift-list .span-01 {
+    float: left;
+    width: 158px;
+}
+
+.game-gift-list .gift-list .span-02 {
+    font-size: 12px;
+    color: #666;
+}
+
+.cm-Popular-assessment {
+    margin-top: -15px;
+    display: none;
+}
+.cm-module-box .switch-show {
+    display: block;
+}
+
+.Popular-assessment-list {
+    position: relative;
+    border-bottom: 1px dotted #c5c5c5;
+    padding-bottom: 15px;
+    margin-top: 14px;
+}
+
+.Popular-assessment-list .list-content {
+}
+
+.Popular-assessment-list .list-logo {
+    float: left;
+    margin-right: 24px;
+    width: 142px;
+    height: 80px;
+}
+
+.Popular-assessment-list h4 {
+    display: block;
+    width: 500px;
+    font-size: 18px;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+.Popular-assessment-list h4 a {
+    color: #111111;
+
+}
+
+.Popular-assessment-list h4 a:hover {
+    color: #33a4f4;
+    cursor: pointer;
+}
+
+.Popular-assessment-list p {
+    display: block;
+    font-size: 14px;
+    color: #666666;
+    line-height: 24px;
+}
+
+.opening-table .game-start-list{
+display: none;
+}
+.opening-table .switch-show{
+    display: block;
+}
+
+.opening-table-header {
+    display: block;
+    height: 80px;
+    margin-top: 26px;
+    margin-bottom: 18px;
+}
+
+.opening-table-header .icon {
+    float: left;
+    width: 80px;
+    height: 80px;
+    overflow: hidden;
+    margin-right: 14px;
+}
+
+.opening-table-header h5 {
+    font-size: 16px;
+    color: #288bff;
+    font-weight: normal;
+}
+
+.opening-table-header .item-01 {
+    margin-top: 8px;
+    font-size: 15px;
+    color: #333333;
+    line-height: 2;
+}
+
+.opening-table-header .item-02 {
+    font-size: 14px;
+    color: #666;
+
+}
+
+.opening-table-list {
+
+    border-bottom: 1px dotted #c5c5c5;
+
+}
+
+.opening-table-list .item {
+    position: relative;
+    height: 40px;
+    line-height: 40px;
+    border-top: 1px dotted #c5c5c5;
+}
+
+.opening-table-list .item .span-01 {
+    float: left;
+    font-size: 14px;
+    color: #288bff;
+    width: 48px;
+
+}
+
+.opening-table-list .item .span-02 {
+    float: left;
+    width: 162px;
+    font-size: 16px;
+    color: #333;
+}
+
+.opening-table-list .item .btn {
+    font-size: 12px;
+    color: #666;
+}
+.game-classify{
+    width: 1024px;
+    border-bottom: 1px dotted #c5c5c5;
+    padding-bottom: 4px;
+}
+
+.game-classify .item {
+    float: left;
+    width: 80px;
+    margin-right: 48px;
+    margin-bottom: 18px;
+}
+
+.game-classify .item .icon {
+    width: 80px;
+    height: 80px;
+    overflow: hidden;
+}
+
+.game-classify .item .title {
+    margin-top: 8px;
+    color: #2b2a2b;
+    font-size: 12px;
+    text-align: center;
+    line-height: 1;
+}
+.game-collection{
+    width: 1005px;
+
+}
+.game-collection .item{
+float: left;
+    margin-right: 25px;
+    margin-bottom: 25px;
+}
+.game-collection .banner{
+    position: relative;
+}
+.game-collection img{
+    display: block;
+}
+.game-collection .label{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding: 0 12px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    background: #000;
+}
+.game-collection .title{
+    margin-top: 14px;
+    font-size: 16px;
+    line-height: 1;
+    color: #333;
+    text-align: center;
+}
